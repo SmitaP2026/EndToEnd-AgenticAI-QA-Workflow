@@ -1,0 +1,49 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Authentication Test Icon Authentication Test" [ref=e3] [cursor=pointer]:
+      - /url: https://authenticationtest.com/
+      - img "Authentication Test Icon" [ref=e4]
+      - text: Authentication Test
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "Auth Menu" [ref=e8] [cursor=pointer]:
+          - /url: https://authenticationtest.com/
+      - listitem [ref=e9]:
+        - link "Status Codes" [ref=e10] [cursor=pointer]:
+          - /url: https://authenticationtest.com/statusCode/?code=200
+      - listitem [ref=e11]:
+        - link "Page 1" [ref=e12] [cursor=pointer]:
+          - /url: https://authenticationtest.com/coverage/?id=1
+      - listitem [ref=e13]:
+        - link "TOTPGen" [ref=e14] [cursor=pointer]:
+          - /url: https://authenticationtest.com/totp/
+      - listitem [ref=e15]:
+        - link "XSS Demo" [ref=e16] [cursor=pointer]:
+          - /url: https://authenticationtest.com/xssDemo/
+      - listitem [ref=e17]:
+        - link "Blog" [ref=e18] [cursor=pointer]:
+          - /url: https://authenticationtest.com/blog/
+      - listitem [ref=e19]:
+        - link "About" [ref=e20] [cursor=pointer]:
+          - /url: https://authenticationtest.com/about/
+    - link "Sign Out" [ref=e22] [cursor=pointer]:
+      - /url: https://authenticationtest.com/login/?mode=logout
+  - generic [ref=e23]:
+    - heading "Login Success" [level=1] [ref=e24]
+    - generic [ref=e25]:
+      - strong [ref=e26]: Success!
+      - text: You are now logged in!
+      - text: You will be logged in for the next 10 minutes. If you wish to log out sooner, there is a Sign Out option in the top right corner.
+      - text: "For HTTP/NTLM Auth: Due to how browsers maintain this session, you may need to clear your browser cache to log out. There is no functional way for this site to provide a logout for this method. Something to think about if you plan on using this method."
+  - contentinfo [ref=e27]:
+    - separator [ref=e28]
+    - text: Copyright ©2019-2026
+    - strong [ref=e29]:
+      - link "Robert Lerner" [ref=e30] [cursor=pointer]:
+        - /url: https://robert-lerner.com
+    - text: ", All Rights Reserved. |"
+    - link "Privacy Policy" [ref=e31] [cursor=pointer]:
+      - /url: https://authenticationtest.com/privacy/
+    - text: "|"
+    - link "Contact Us" [ref=e32] [cursor=pointer]:
+      - /url: https://robert-lerner.com/contact/?property=AuthenticationTest

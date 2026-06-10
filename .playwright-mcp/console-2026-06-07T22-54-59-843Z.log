@@ -1,0 +1,7 @@
+[     259ms] [WARNING] Error with Feature-Policy header: Unrecognized feature: 'document-domain'. @ :0
+[     260ms] [WARNING] Error with Feature-Policy header: Unrecognized feature: 'vr'. @ :0
+[     810ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://authenticationtest.com/complexAuth/:0
+[  238960ms] [WARNING] Error with Feature-Policy header: Unrecognized feature: 'document-domain'. @ :0
+[  238960ms] [WARNING] Error with Feature-Policy header: Unrecognized feature: 'vr'. @ :0
+[  253871ms] [WARNING] Error with Feature-Policy header: Unrecognized feature: 'document-domain'. @ :0
+[  253871ms] [WARNING] Error with Feature-Policy header: Unrecognized feature: 'vr'. @ :0

@@ -1,0 +1,78 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Authentication Test Icon Authentication Test" [ref=e3] [cursor=pointer]:
+      - /url: https://authenticationtest.com/
+      - img "Authentication Test Icon" [ref=e4]
+      - text: Authentication Test
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "Auth Menu" [ref=e8] [cursor=pointer]:
+          - /url: https://authenticationtest.com/
+      - listitem [ref=e9]:
+        - link "Status Codes" [ref=e10] [cursor=pointer]:
+          - /url: https://authenticationtest.com/statusCode/?code=200
+      - listitem [ref=e11]:
+        - link "Page 1" [ref=e12] [cursor=pointer]:
+          - /url: https://authenticationtest.com/coverage/?id=1
+      - listitem [ref=e13]:
+        - link "TOTPGen" [ref=e14] [cursor=pointer]:
+          - /url: https://authenticationtest.com/totp/
+      - listitem [ref=e15]:
+        - link "XSS Demo" [ref=e16] [cursor=pointer]:
+          - /url: https://authenticationtest.com/xssDemo/
+      - listitem [ref=e17]:
+        - link "Blog" [ref=e18] [cursor=pointer]:
+          - /url: https://authenticationtest.com/blog/
+      - listitem [ref=e19]:
+        - link "About" [ref=e20] [cursor=pointer]:
+          - /url: https://authenticationtest.com/about/
+    - generic [ref=e21]: Please Sign In
+  - generic [ref=e22]:
+    - heading "Complex Form Authentication" [level=1] [ref=e23]
+    - text: Complex Form Auth requires more than a simple form (user/pass), this requires selection of a drop down as well as a check box.
+    - separator [ref=e24]
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - heading "How to log in:" [level=2] [ref=e28]
+          - strong [ref=e29]: "E-Mail:"
+          - text: complex@authenticationtest.com
+          - strong [ref=e30]: "Password:"
+          - text: pa$$w0rd
+          - text: Then, in the drop down, select "Please Log Me In"
+          - text: Check the box by "I love form manipulation"
+        - link "Download .side" [ref=e31] [cursor=pointer]:
+          - /url: https://authenticationtest.com/files/complexForm.side
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: E-Mail Address
+          - textbox "E-Mail Address" [ref=e36]: invalid@authenticationtest.com
+        - generic [ref=e37]:
+          - generic [ref=e38]: Password
+          - textbox "Password" [active] [ref=e39]: wrongpass
+        - generic [ref=e40]:
+          - generic [ref=e41]: Make a Selection
+          - combobox "Make a Selection" [ref=e42]:
+            - option "Don't Log Me In"
+            - option "Please Log Me In" [selected]
+        - generic [ref=e43]:
+          - checkbox "I love form manipulation!" [ref=e44]
+          - generic [ref=e45]: I love form manipulation!
+        - button "Log In" [ref=e46] [cursor=pointer]
+    - generic [ref=e48]:
+      - heading "Form Completion Authentication" [level=2] [ref=e49]
+      - paragraph [ref=e50]:
+        - text: This is much similar to the "Simple Form Authentication", but in this case you have to do a bit more form manipulation. Includes a drop down and a check box that must be set to a specific setting before you can login.
+        - text: Follows the typical workflow of "sell my information please and violate my privacy" style of logging in.
+  - contentinfo [ref=e51]:
+    - separator [ref=e52]
+    - text: Copyright ©2019-2026
+    - strong [ref=e53]:
+      - link "Robert Lerner" [ref=e54] [cursor=pointer]:
+        - /url: https://robert-lerner.com
+    - text: ", All Rights Reserved. |"
+    - link "Privacy Policy" [ref=e55] [cursor=pointer]:
+      - /url: https://authenticationtest.com/privacy/
+    - text: "|"
+    - link "Contact Us" [ref=e56] [cursor=pointer]:
+      - /url: https://robert-lerner.com/contact/?property=AuthenticationTest

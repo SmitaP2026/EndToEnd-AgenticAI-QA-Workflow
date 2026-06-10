@@ -1,0 +1,44 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Authentication Test Icon Authentication Test" [ref=e3] [cursor=pointer]:
+      - /url: https://authenticationtest.com/
+      - img "Authentication Test Icon" [ref=e4]
+      - text: Authentication Test
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "Auth Menu" [ref=e8] [cursor=pointer]:
+          - /url: https://authenticationtest.com/
+      - listitem [ref=e9]:
+        - link "Status Codes" [ref=e10] [cursor=pointer]:
+          - /url: https://authenticationtest.com/statusCode/?code=200
+      - listitem [ref=e11]:
+        - link "Page 1" [ref=e12] [cursor=pointer]:
+          - /url: https://authenticationtest.com/coverage/?id=1
+      - listitem [ref=e13]:
+        - link "TOTPGen" [ref=e14] [cursor=pointer]:
+          - /url: https://authenticationtest.com/totp/
+      - listitem [ref=e15]:
+        - link "XSS Demo" [ref=e16] [cursor=pointer]:
+          - /url: https://authenticationtest.com/xssDemo/
+      - listitem [ref=e17]:
+        - link "Blog" [ref=e18] [cursor=pointer]:
+          - /url: https://authenticationtest.com/blog/
+      - listitem [ref=e19]:
+        - link "About" [ref=e20] [cursor=pointer]:
+          - /url: https://authenticationtest.com/about/
+    - generic [ref=e21]: Please Sign In
+  - generic [ref=e22]:
+    - heading "Login Failure" [level=1] [ref=e23]
+    - generic [ref=e24]: Sorry -- You have not successfully logged in. If you were trying HTTP Auth, clear your browser cache.
+  - contentinfo [ref=e25]:
+    - separator [ref=e26]
+    - text: Copyright ©2019-2026
+    - strong [ref=e27]:
+      - link "Robert Lerner" [ref=e28] [cursor=pointer]:
+        - /url: https://robert-lerner.com
+    - text: ", All Rights Reserved. |"
+    - link "Privacy Policy" [ref=e29] [cursor=pointer]:
+      - /url: https://authenticationtest.com/privacy/
+    - text: "|"
+    - link "Contact Us" [ref=e30] [cursor=pointer]:
+      - /url: https://robert-lerner.com/contact/?property=AuthenticationTest
