@@ -1,1 +1,2 @@
-Repository for end-to-end Agentic AI work flow on playwright for AuthenticationTest-ComplexForm website
+End-to-end AgenticAI QA workflow
+This is self-developed scalable Playwright automation framework demonstrating End-to-end Agentic AI QA workflow using agents and MCP servers.
